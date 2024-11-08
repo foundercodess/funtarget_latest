@@ -1,0 +1,57 @@
+name: funtarget
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.2
+  another_flushbar: ^1.12.30
+  google_fonts: ^5.1.0
+  shared_preferences: ^2.2.1
+  carousel_slider: ^4.0.0
+#  audioplayers:
+  widget_and_text_animator: ^1.1.5
+  motion:
+  confetti: ^0.7.0
+  provider: ^6.1.1
+  http:
+  just_audio:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/BackgroundImages/
+    - assets/chipbuttons/
+    - assets/music/
+    - assets/vdo/
+    - assets/game-two/
+    - assets/assets/
+    - assets/music/musicOne.mp3
+    - fonts/
+
+  fonts:
+    - family: MyFont
+      fonts:
+        - asset: fonts/digital.ttf
+
